@@ -32,6 +32,7 @@ body {
 
 .hero-title-prefix {
   font-family: "Roboto", monospace;
+  letter-spacing: 10px;
   font-size: 1.125rem;
   font-weight: 300;
   text-transform: uppercase;
