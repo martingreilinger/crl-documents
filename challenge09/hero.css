@@ -1,0 +1,43 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 0;
+}
+
+.hero-title {
+  --title-font-size: 5.625rem;
+
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: var(--title-font-size);
+  font-weight: bold;
+  line-height: var(--title-font-size);
+}
+
+.hero-descriptor {
+  align-self: flex-end;
+  margin-top: 5em;
+}
+
+.hero-descriptor__text {
+  color: white;
+  margin-bottom: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: var(--font-size-l);
+}
+
+.hero-descriptor__button {
+  border: none;
+  font-family: "Oswald", sans-serif;
+  font-size: var(--font-size-l);
+  font-weight: bold;
+  padding: 0.3em 1.7em;
+  text-transform: uppercase;
+  background: var(--color-accent);
+  border-radius: 10rem;
+  color: white;
+}
+
+.hero-descriptor__button:hover {
+  opacity: 0.8;
+}
