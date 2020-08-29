@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header class="nav-header">
       <nav class="nav-bar content">
         <img src="img/logo.svg" alt="page logo" />
         <ul class="nav-bar__links">
@@ -108,7 +108,7 @@
               dolore magna aliqua. Ut enim ad minim veniam.
             </p>
           </article>
-          <aside class="flex column">
+          <aside class="sidebar">
             <div class="sidebar-item background-blue">
               <h2 class="sidebar-item__title">
                 Break it down
@@ -140,40 +140,39 @@
         </section>
       </section>
       <footer class="background-blue">
-        <section class="content flex column">
+        <section class="content footer">
           <header>
-            <h1>just scratching the surface</h1>
+            <h1 class="footer__heading">just scratching the surface</h1>
           </header>
-          <section class="flex">
+          <section class="footer-info">
             <div>
-              <h2>About our company</h2>
-              <p>
+              <h2 class="footer-info__heading">About our company</h2>
+              <p class="footer-info__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim 9 veniam.
               </p>
             </div>
-            <section>
-              <div class="flex column">
-                <h2>Getting around</h2>
-
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
+            <section class="footer-info-links__wrapper">
+              <div class="footer-info-links">
+                <h2 class="footer-info-links__heading">Getting around</h2>
+                <a class="footer-info-links__link" href="#">Home</a>
+                <a class="footer-info-links__link" href="#">About</a>
+                <a class="footer-info-links__link" href="#">Contact</a>
               </div>
-              <div class="flex column">
-                <h2>Other things</h2>
-                <a href="#">Lorem impsum</a>
-                <a href="#">dolor</a>
-                <a href="#">sit amet</a>
-                <a href="#">consectetur</a>
+              <div class="footer-info-links">
+                <h2 class="footer-info-links__heading">Other things</h2>
+                <a class="footer-info-links__link" href="#">Lorem impsum</a>
+                <a class="footer-info-links__link" href="#">dolor</a>
+                <a class="footer-info-links__link" href="#">sit amet</a>
+                <a class="footer-info-links__link" href="#">consectetur</a>
               </div>
-              <div class="flex column">
-                <h2>And more</h2>
-                <a href="#">Lorem impsum</a>
-                <a href="#">dolor</a>
-                <a href="#">sit amet</a>
-                <a href="#">consectetur</a>
+              <div class="footer-info-links">
+                <h2 class="footer-info-links__heading">And more</h2>
+                <a class="footer-info-links__link" href="#">Lorem impsum</a>
+                <a class="footer-info-links__link" href="#">dolor</a>
+                <a class="footer-info-links__link" href="#">sit amet</a>
+                <a class="footer-info-links__link" href="#">consectetur</a>
               </div>
             </section>
           </section>

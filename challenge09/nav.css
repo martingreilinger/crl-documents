@@ -1,3 +1,7 @@
+.nav-header {
+  background: var(--color-blue-dark);
+}
+
 .nav-bar {
   display: flex;
   flex-direction: column;
@@ -10,7 +14,6 @@
   font-family: "Oswald", sans-serif;
   font-size: var(--font-size-m);
   list-style: none;
-  margin-top: 1em;
   padding: 0;
 }
 

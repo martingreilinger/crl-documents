@@ -15,27 +15,28 @@
 }
 
 .hero-descriptor {
-  align-self: flex-end;
+  align-self: flex-flex-start;
   margin-top: 5em;
 }
 
 .hero-descriptor__text {
   color: white;
-  margin-bottom: 2em;
   font-family: 'Montserrat', sans-serif;
   font-size: var(--font-size-l);
+  margin-bottom: 2em;
+  max-width: 300px;
 }
 
 .hero-descriptor__button {
+  background: var(--color-accent);
+  border-radius: 10rem;
   border: none;
+  color: white;
   font-family: "Oswald", sans-serif;
   font-size: var(--font-size-l);
   font-weight: bold;
   padding: 0.3em 1.7em;
   text-transform: uppercase;
-  background: var(--color-accent);
-  border-radius: 10rem;
-  color: white;
 }
 
 .hero-descriptor__button:hover {
